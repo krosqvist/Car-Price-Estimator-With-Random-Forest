@@ -71,6 +71,9 @@ predict the price development up to five years.
 
 1. **Navigate to the project root folder**.
 
+   * You need to change row 23 in Backend/server.js "const py = spawn('python3', ['-u', scriptPath, ...args]);" to "const py = spawn('python', ['-u', scriptPath, ...args]);"
+   * Changing the python3 usage to python due to windows problems
+
 2. **Create venv environment**
    ```bat
    python -m venv venv
@@ -80,7 +83,7 @@ predict the price development up to five years.
 3. **Check Python installation**:
 
    ```bat
-   python3 --version
+   python --version
    ```
 
    * If Python is not found, install Python 3.8+ and add it to PATH.
