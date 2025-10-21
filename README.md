@@ -74,7 +74,7 @@ predict the price development up to five years.
    * You need to change row 23 in Backend/server.js\
    **const py = spawn('python3', ['-u', scriptPath, ...args]);**\
     to\
-   **const py = spawn('python', ['-u', scriptPath, ...args]);**\
+   **const py = spawn('python', ['-u', scriptPath, ...args]);**
    * Changing the python3 usage to python due to windows problems
 
 2. **Create venv environment**
