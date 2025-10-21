@@ -19,11 +19,17 @@ predict the price development up to five years.
 
 ---
 
-## Manual Setup Instructions
+## Manual Setup Instructions for linux and mac
 
 1. **Navigate to the project root folder**.
 
-2. **Check Python installation**:
+2. **Create venv environment**
+   ```bat
+   python3 -m venv venv
+   source venv/bin/activate
+   ```
+
+3. **Check Python installation**:
 
    ```bat
    python3 --version
@@ -31,7 +37,7 @@ predict the price development up to five years.
 
    * If Python is not found, install Python 3.8+ and add it to PATH.
 
-3. **Check Node.js installation**:
+4. **Check Node.js installation**:
 
    ```bat
    node --version
@@ -40,20 +46,68 @@ predict the price development up to five years.
 
    * If Node.js is not found, install Node.js and add it to PATH.
 
-4. **Install Python backend dependencies**:
+5. **Install Python backend dependencies**:
 
    ```bat
    pip install -r Backend/requirements.txt
    ```
 
-5. **Install Node.js backend dependencies**:
+6. **Install Node.js backend dependencies**:
 
    ```bat
    cd Backend
    npm install
    ```
 
-9. **Start the backend server**:
+7. **Start the backend server**:
+
+   ```bat
+   npm run dev
+   ```
+
+   * The software will be accessible on your browser at `http://localhost:3001`.
+
+## For windows users
+
+1. **Navigate to the project root folder**.
+
+2. **Create venv environment**
+   ```bat
+   python -m venv venv
+   venv\Scripts\activate.bat
+   ```
+
+3. **Check Python installation**:
+
+   ```bat
+   python3 --version
+   ```
+
+   * If Python is not found, install Python 3.8+ and add it to PATH.
+
+4. **Check Node.js installation**:
+
+   ```bat
+   node --version
+   npm --version
+   ```
+
+   * If Node.js is not found, install Node.js and add it to PATH.
+
+5. **Install Python backend dependencies**:
+
+   ```bat
+   pip install -r Backend\requirements.txt
+   ```
+
+6. **Install Node.js backend dependencies**:
+
+   ```bat
+   cd Backend
+   npm install
+   ```
+
+7. **Start the backend server**:
 
    ```bat
    npm run dev
