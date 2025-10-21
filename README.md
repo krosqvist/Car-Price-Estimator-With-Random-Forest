@@ -56,7 +56,6 @@ predict the price development up to five years.
 9. **Start the backend server**:
 
    ```bat
-   cd Backend
    npm run dev
    ```
 
@@ -69,6 +68,6 @@ predict the price development up to five years.
 * Always run these commands from the **project root folder**.
 * Usage of venv can cause the program to malfunction due to node.js child process calling different python than what installed in venv
 * Running `npm install` inside `Backend` ensures Node.js dependencies are correctly installed.
-* The 1.7Gb model is downloaded from git during first calculation, so it will take some time. After that user experience will smoothen
+* The 1.7Gb model is downloaded from git tag in this repository during first calculation, so it will take some time. After that user experience will smoothen
 
 ---
