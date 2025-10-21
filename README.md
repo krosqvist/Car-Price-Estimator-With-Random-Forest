@@ -71,8 +71,10 @@ predict the price development up to five years.
 
 1. **Navigate to the project root folder**.
 
-   * You need to change row 23 in Backend/server.js **const py = spawn('python3', ['-u', scriptPath, ...args]);**
-    to **const py = spawn('python', ['-u', scriptPath, ...args]);**
+   * You need to change row 23 in Backend/server.js
+   **const py = spawn('python3', ['-u', scriptPath, ...args]);**
+    to
+   **const py = spawn('python', ['-u', scriptPath, ...args]);**
    * Changing the python3 usage to python due to windows problems
 
 2. **Create venv environment**
