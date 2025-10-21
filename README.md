@@ -26,7 +26,7 @@ predict the price development up to five years.
 2. **Check Python installation**:
 
    ```bat
-   python --version
+   python3 --version
    ```
 
    * If Python is not found, install Python 3.8+ and add it to PATH.
@@ -43,7 +43,7 @@ predict the price development up to five years.
 4. **Install Python backend dependencies**:
 
    ```bat
-   python -m pip install -r Backend\requirements.txt
+   pip install -r Backend\requirements.txt
    ```
 
 5. **Install Node.js backend dependencies**:
