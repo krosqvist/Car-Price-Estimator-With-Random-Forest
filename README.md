@@ -43,7 +43,7 @@ predict the price development up to five years.
 4. **Install Python backend dependencies**:
 
    ```bat
-   pip install -r Backend\requirements.txt
+   pip install -r Backend/requirements.txt
    ```
 
 5. **Install Node.js backend dependencies**:
