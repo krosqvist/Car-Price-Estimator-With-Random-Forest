@@ -12,10 +12,10 @@ predict the price development up to five years.
 
 * **Python 3.8+**
 
-  * Ensure Python is installed and added to your system PATH.
+  * Ensure Python is installed
 * **Node.js**
 
-  * Ensure Node.js and npm are installed and added to your system PATH.
+  * Ensure Node.js and npm are installed
 
 ---
 
@@ -35,7 +35,7 @@ predict the price development up to five years.
    python3 --version
    ```
 
-   * If Python is not found, install Python 3.8+ and add it to PATH.
+   * If Python is not found, install Python 3.8+
 
 4. **Check Node.js installation**:
 
@@ -44,7 +44,7 @@ predict the price development up to five years.
    npm --version
    ```
 
-   * If Node.js is not found, install Node.js and add it to PATH.
+   * If Node.js is not found, install Node.js
 
 5. **Install Python backend dependencies**:
 
@@ -89,7 +89,7 @@ predict the price development up to five years.
    python --version
    ```
 
-   * If Python is not found, install Python 3.8+ and add it to PATH.
+   * If Python is not found, install Python 3.8+
 
 4. **Check Node.js installation**:
 
@@ -98,7 +98,7 @@ predict the price development up to five years.
    npm --version
    ```
 
-   * If Node.js is not found, install Node.js and add it to PATH.
+   * If Node.js is not found, install Node.js
 
 5. **Install Python backend dependencies**:
 
