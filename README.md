@@ -13,23 +13,29 @@ predict the price development up to five years.
 * **Python 3.8+**
 
   * Ensure Python is installed
+  * https://www.python.org/downloads/
+
 * **Node.js**
 
   * Ensure Node.js and npm are installed
+  * https://nodejs.org/en/download
 
 ---
 
 ## Manual Setup Instructions for linux and mac
 
-1. **Navigate to the project root folder**.
+1. **Download the code as a zip file**
 
-2. **Create venv environment**
+2. **Navigate to the project root folder using terminal**.
+   * https://gomakethings.com/navigating-the-file-system-with-terminal/
+
+3. **Create venv environment**
    ```bat
    python3 -m venv venv
    source venv/bin/activate
    ```
 
-3. **Check Python installation**:
+4. **Check Python installation**:
 
    ```bat
    python3 --version
@@ -37,7 +43,7 @@ predict the price development up to five years.
 
    * If Python is not found, install Python 3.8+
 
-4. **Check Node.js installation**:
+5. **Check Node.js installation**:
 
    ```bat
    node --version
@@ -46,20 +52,20 @@ predict the price development up to five years.
 
    * If Node.js is not found, install Node.js
 
-5. **Install Python backend dependencies**:
+6. **Install Python backend dependencies**:
 
    ```bat
    pip install -r Backend/requirements.txt
    ```
 
-6. **Install Node.js backend dependencies**:
+7. **Install Node.js backend dependencies**:
 
    ```bat
    cd Backend
    npm install
    ```
 
-7. **Start the backend server**:
+8. **Start the backend server**:
 
    ```bat
    npm run dev
@@ -69,7 +75,10 @@ predict the price development up to five years.
 
 ## For windows users
 
-1. **Navigate to the project root folder**.
+1. **Download the code as a zip file**
+
+2. **Navigate to the project root folder using Command Prompt (don't use PowerShell)**.
+   * https://www.wikihow.com/Change-Directories-in-Command-Prompt
 
    * You need to change row 23 in Backend/server.js\
    **const py = spawn('python3', ['-u', scriptPath, ...args]);**\
@@ -77,13 +86,13 @@ predict the price development up to five years.
    **const py = spawn('python', ['-u', scriptPath, ...args]);**
    * Changing the python3 usage to python due to windows problems
 
-2. **Create venv environment**
+3. **Create venv environment**
    ```bat
    python -m venv venv
    venv\Scripts\activate.bat
    ```
 
-3. **Check Python installation**:
+4. **Check Python installation**:
 
    ```bat
    python --version
@@ -91,7 +100,7 @@ predict the price development up to five years.
 
    * If Python is not found, install Python 3.8+
 
-4. **Check Node.js installation**:
+5. **Check Node.js installation**:
 
    ```bat
    node --version
@@ -100,20 +109,20 @@ predict the price development up to five years.
 
    * If Node.js is not found, install Node.js
 
-5. **Install Python backend dependencies**:
+6. **Install Python backend dependencies**:
 
    ```bat
    pip install -r Backend\requirements.txt
    ```
 
-6. **Install Node.js backend dependencies**:
+7. **Install Node.js backend dependencies**:
 
    ```bat
    cd Backend
    npm install
    ```
 
-7. **Start the backend server**:
+8. **Start the backend server**:
 
    ```bat
    npm run dev
